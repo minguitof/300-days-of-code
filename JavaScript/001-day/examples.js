@@ -1,16 +1,9 @@
-var a = "ohana";
-console.log(a);
+// iniciamos el array
+var matrix = ["pepitoo", "pepitooo"];
 
-var matrix = []
-// var b = prompt("");
-// console.log(b);
+let resultado = document.getElementById("resultado");
 
-for (let i = 1; i <= 1; i++) {
-    var c = prompt("");
-    matrix.push(c);
-    console.log(matrix);
-}
-
+// función que recorre el array en busca de nuevos cambios para el HTML
 function actualizarHTML() {
   resultado.innerHTML = `
     <ul>
@@ -19,13 +12,7 @@ function actualizarHTML() {
   `;
 }
 
-let resultado = document.getElementById("resultado");
-
-resultado.innerHTML = "<ul>" +
-    matrix.map(matri => `<li>${matri}</li>`).join("") +
-    "</ul>"
-    actualizarHTML();
-
+// DIV para eliminar información
 let eliminar = document.getElementById("eliminar");
 
 eliminar.addEventListener("click", function(){
@@ -39,9 +26,10 @@ eliminar.addEventListener("click", function(){
       alert("Eso no es un número válido.");
     }
     console.log(matrix)
+    actualizarHTML();
 });
 
-
+// DIV de modificar valor
 let modificar = document.getElementById("modificar");
 
 modificar.addEventListener("click", function(){
@@ -59,3 +47,5 @@ modificar.addEventListener("click", function(){
     actualizarHTML();
 })
 
+// llamado de función actualiza pantalla
+actualizarHTML();

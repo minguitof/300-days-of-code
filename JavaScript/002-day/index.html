@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 002</title>
+</head>
+<body>
+    <h1 id="titulo">Titulo</h1>
+
+    <!--  Seccion para input de add elements the list  -->
+    <input type="text" id="miInput" placeholder="Ingrese su nombre">
+    <button onclick="mostrarValor()">Agregar a la lista</button>
+
+    <br>
+
+    <!--  Seccion para input de add elements the list  -->
+    <input type="text" id="miUpdate" placeholder="Ingrese su valor a editar">
+    <button onclick="updateName()">Modificar Valor</button>
+    <div id="valorUsuarioModificar"></div>
+
+    <!-- Este input está oculto inicialmente -->
+    <div id="contenedorNuevoValor" style="display: none;">
+      <input type="text" id="nuevoValorInput" placeholder="Nuevo nombre">
+      <button onclick="guardarNuevoValor()">Guardar</button>
+    </div>
+
+    <br>
+
+    <input type="text" id="indiceBorrar" placeholder="Índice a eliminar">
+    <button onclick="borrarUsuario()">Eliminar</button>
+
+    <div id="mensajeBorrado"></div>
+
+    <h1>Usuarios:</h1>
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
