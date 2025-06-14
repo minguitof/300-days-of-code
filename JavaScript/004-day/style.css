@@ -1,0 +1,24 @@
+body {
+    background-color: grey ;
+}
+
+.card {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    font-family: sans-serif;
+}
+
+.caja-toggle {
+  background-color: lightblue;
+  padding: 20px;
+  border: 2px solid #000;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.activo {
+  background-color: lightcoral;
+  border: 4px dashed #333;
+  transform: scale(1.05);
+}
