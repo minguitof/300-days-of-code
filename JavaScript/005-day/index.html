@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>005 Day 🙏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h3>To-Do App</h3>
+        <input type="text" id="tareaInput" placeholder="Escribí una tarea" >
+        <button id="agregarTarea">Agregar</button>
+        <p id="mensaje"></p>
+        <ul id="listaTareas"></ul>  
+    </div>
+
+    <div>
+        <p id="contadorTareas">Contador</p>
+        <button id="eliminarTodo">Eliminar todas las notas</button>
+        <p id="confirmEliminarTodo"></p>
+        <div>
+            <select name="filter" id="filterNotes">
+              <option value="todas">Todas</option>
+              <option value="completadas">Completadas</option>
+              <option value="pendientes">Pendientes</option>
+            </select>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
