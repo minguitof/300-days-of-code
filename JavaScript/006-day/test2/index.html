@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>006 Day 🫂</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="mainContainer"> <!-- Nuevo contenedor -->
+    <div id="app"> <!-- App  -->
+        <h3 id="tittleApp">To-Do App</h3>
+        <input type="text" id="buscarTarea" placeholder="Buscar tareas 🔍" /> 
+        <br>
+        <input type="text" id="tareaInput" placeholder="Escribí una tarea" >
+        <button id="agregarTarea">Agregar</button>
+        <button id="toggleModo">🌙 Modo oscuro</button>
+        <p id="mensaje"></p>
+        <ul id="listaTareas"></ul>  
+    </div>
+
+    <div id="sidePanel">
+        <p id="contadorTareas">Contador</p>
+        <button id="eliminarTodo">Eliminar todas las notas</button>
+        <p id="confirmEliminarTodo"></p>
+        <div>
+        <select id="filterNotes">
+          <option value="todas">Todas</option>
+          <option value="completadas">Completadas</option>
+          <option value="pendientes">Pendientes</option>
+        </select>
+    
+        <select id="ordenarTareas">
+          <option value="nuevas">Más nuevas</option>
+          <option value="antiguas">Más antiguas</option>
+          <!-- <option value="completadas">Completadas</option> -->
+        </select>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

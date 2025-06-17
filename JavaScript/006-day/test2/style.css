@@ -1,0 +1,247 @@
+/* Estado completado */
+.tarea span.completada {
+  text-decoration: line-through;
+  color: #6c757d;
+  opacity: 0.6;
+  font-style: italic;
+  transition: all 0.3s ease;
+}
+.tarea span.completada::before {
+  content: "✔️ ";
+  margin-right: 6px;
+}
+
+/* Mensaje de error o alerta */
+#mensaje {
+  font-size: 16px;
+  color: #d63384;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+#mainContainer {
+  display: flex;
+  justify-content: center; /* opcional: centrado horizontal */
+  align-items: flex-start; /* alineación vertical al tope */
+  gap: 20px; /* espacio entre los dos bloques */
+  flex-wrap: wrap; /* permite que se acomoden en pantallas pequeñas */
+}
+
+#app, #sidePanel {
+  flex: 1 1 300px; /* crecen, encogen y tienen mínimo 300px */
+  max-width: 500px;
+}
+
+#app, #sidePanel {
+  max-width: 500px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Contenedor general */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e6f2ff;
+  padding: 20px;
+  margin: 0;
+}
+
+/* App container centrado */
+/* div {
+  max-width: 500px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+} */
+
+/* Título */
+h3 {
+  text-align: center;
+  color: #343a40;
+}
+
+/* Inputs */
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/* Selects */
+select {
+  padding: 6px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 100%;
+}
+
+/* Botones generales */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 4px 0;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Lista de tareas */
+#listaTareas {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+/* Tarea individual */
+.tarea {
+  display: flex;
+  padding: 8px;
+  background-color: #fdfdfd;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.tarea span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.tarea button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+
+.tarea .completada {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* .tarea button {
+  background: none;
+  border: none;
+  font-size: 1.1em;
+  margin-left: 10px;
+} */
+
+/* Botón de eliminar tarea */
+/* .tarea button {
+  flex-shrink: 0;
+  min-width: 24px;
+  text-align: center;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #e74c3c;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: transform 0.2s ease;
+} */
+
+.tarea button:hover {
+  transform: scale(1.2);
+}
+
+/* Transiciones de aparición/desaparición */
+.tarea.mostrar {
+  opacity: 1;
+  transform: scale(1);
+  max-height: 200px;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.tarea.ocultar {
+  opacity: 0;
+  transform: scale(0.9);
+  max-height: 0;
+  padding: 0;
+  margin: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Contador de tareas */
+#contadorTareas {
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Modo oscuro */
+body.modo-oscuro {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.modo-oscuro div {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+}
+
+body.modo-oscuro #app,
+body.modo-oscuro #sidePanel {
+  background-color: #1e1e1e; /* Fondo más oscuro */
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05); /* Sombra sutil clara */
+}
+
+body.modo-oscuro #app,
+body.modo-oscuro #sidePanel {
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+}
+
+
+
+body.modo-oscuro input[type="text"],
+body.modo-oscuro select {
+  background-color: #3b3b3b;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+body.modo-oscuro button {
+  background-color: #444;
+  color: #f1f1f1;
+}
+
+body.modo-oscuro .tarea {
+  background-color: #3b3b3b;
+  color: #f1f1f1;
+}
+
+body.modo-oscuro .tarea span.completada {
+  color: #bbb;
+}
+
+body.modo-oscuro #tittleApp {
+  color: #fff;
+}
+
+#tittleApp {
+  transition: color 0.3s ease;
+}
