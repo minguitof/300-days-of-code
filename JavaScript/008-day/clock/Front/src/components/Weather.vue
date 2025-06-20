@@ -24,7 +24,6 @@ const { ciudad, temperatura, condicion, cargando, error } = useWeather()
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   letter-spacing: 0.5px;
-  color: #333;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   text-align: center;
   margin: 0.5rem 0;

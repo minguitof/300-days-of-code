@@ -94,6 +94,11 @@
     color: white;
   }
 
+  .partly-cloudy-bg {
+    background: linear-gradient(to top, #515f68, #414952);
+    color: white;
+  }
+
   .default-bg {
     background: #f5f5f5;
     color: #333;
