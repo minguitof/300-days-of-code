@@ -1,0 +1,15 @@
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\bin\Debug\net8.0\MyAppPrueba.exe
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\bin\Debug\net8.0\MyAppPrueba.deps.json
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\bin\Debug\net8.0\MyAppPrueba.runtimeconfig.json
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\bin\Debug\net8.0\MyAppPrueba.dll
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\bin\Debug\net8.0\MyAppPrueba.pdb
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\obj\Debug\net8.0\MyAppPrueba.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\obj\Debug\net8.0\MyAppPrueba.AssemblyInfoInputs.cache
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\obj\Debug\net8.0\MyAppPrueba.AssemblyInfo.cs
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\obj\Debug\net8.0\MyAppPrueba.csproj.CoreCompileInputs.cache
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\obj\Debug\net8.0\MyAppPrueba.sourcelink.json
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\obj\Debug\net8.0\MyAppPrueba.dll
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\obj\Debug\net8.0\refint\MyAppPrueba.dll
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\obj\Debug\net8.0\MyAppPrueba.pdb
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\obj\Debug\net8.0\MyAppPrueba.genruntimeconfig.cache
+D:\Users\hpnol\Documents\Codigo\300-days-of-code\JavaScript\010-day\MyAppPrueba\obj\Debug\net8.0\ref\MyAppPrueba.dll

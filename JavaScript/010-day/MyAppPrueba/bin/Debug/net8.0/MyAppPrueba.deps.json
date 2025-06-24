@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MyAppPrueba/1.0.0": {
+        "runtime": {
+          "MyAppPrueba.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyAppPrueba/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
