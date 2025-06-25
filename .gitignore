@@ -42,3 +42,31 @@ coverage/
 .cache/
 .parcel-cache/
 .out/
+
+# Archivos y carpetas de .NET
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+
+# Config local de EF
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Archivos de publicación
+publish/
+
+# Archivos de Rider (si usas JetBrains)
+.idea/
+*.sln.iml
+
+# SQLite (si usás EF con SQLite en dev)
+*.db
+*.db-journal
+
+# Otros comunes en .NET
+.vs/
+*.ncrunch*
+_ReSharper*/
