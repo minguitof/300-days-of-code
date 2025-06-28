@@ -1,0 +1,1 @@
+- Sabado 28: es hora de la mañana, posiblemente suba mas text o avances del proceso, de momento solo hace coomit a los días de atras y seguir fiel a lo que prometi, un año de mi vida, por estar bien el resto de mi vida, iniciativa, motivación, disciplina, y muchoooo dolor. <3

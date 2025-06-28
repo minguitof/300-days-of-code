@@ -1,0 +1,1 @@
+- Día viernes 27, no fue un gran día, solo pude organizar algunas cositas de la pagina P-rose e intentar cambiar mi vida, tome un descanso e intentar entender la vida :).
