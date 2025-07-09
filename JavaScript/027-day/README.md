@@ -1,0 +1,5 @@
+- día 27: Inicio con Sharp, hoy no programe mucho porque me encuentro conociendo nuevas personas, y sí esta dificil porque no logro comunicar mucho con las personas, no gastare mucha energia en algo que no me pueda aportar mucho, seguire con esto, que si me brindara exitos en un futuro, he iniciado cambios conmigo, limitarme a no expornerne tantos a mis vicios de procrastinación, esto no me esta llevando a nada, tambien me doy gracias por esta meta tan dificil que me estoy planteando porque se que no es facil, pero tampoco imposible, este díario a sido el mejor que he podido, iniciar, que sea publico, y haz visto todo, ser publico tampoco esta tan mal, lo que trato de expresar es que me cohibe demasido en las sombras y de nada me sirvio, hare esto mas real, mas vivo, sentir mas, y por fin decir, adios a mis vicios, Marihuana, Procrastinación, Dormir, Contenido no del todo bueno para mi. 
+
+Ha sido un poco amplio, pero necesario para este inicio, sere el mejor en C Sharp, en algo sere bueno y si o si lo hare aca, hasta ser deseado por lo que soy :)
+
+Feliz viaje Mario, ¡saludos!
