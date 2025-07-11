@@ -1,64 +1,65 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
-class Estudiante
+class Estudiantes
 {
-    string nombre;
+    string nombreUsuario;
     string carrera;
     List<double> notas = new List<double>();
     double promedio;
 
-    public void ObtenerInfo(string nombre, string carrera)
-    { 
-        this.nombre = nombre;
+    public void ObtenerInfo(string nombreUsuario, string carrera) 
+    {
+        this.nombreUsuario = nombreUsuario;
         this.carrera = carrera;
     }
 
-    public void CalcularPromedio()
+    public void CalcularPromedio() 
     {
         double suma = 0;
-        foreach (double nota in notas)
+
+        foreach (var nota in notas)
         {
             suma += nota;
         }
         promedio = notas.Count > 0 ? suma / notas.Count : 0;
     }
 
-    public void AgregarNota(double nota)
-    {
+    public void AgregarNotas(double nota)
+    { 
         notas.Add(nota);
     }
 
     public void MostrarInfo()
     {
-        Console.WriteLine($"\nEstudiante: {nombre} - Carrera: {carrera}");
+        Console.WriteLine($"\nEstudiante: {nombreUsuario} - Carrera: {carrera}");
         Console.WriteLine($"Promedio final: {promedio:F2}");
 
         if (promedio >= 3.0)
         {
             Console.WriteLine("🎉 ¡Excelente! Tienes derecho a beca y has aprobado melo el curso.");
         }
-        else if (promedio >= 3.0)
-        {
-            Console.WriteLine("🙂 Vas bien, pero no alcanzas beca aún.");
-        }
         else
         {
             Console.WriteLine("😕 Hay que mejorar ese rendimiento, confio en ti hermano, y se que puedes dar mas y no me estas dando ese 100%.");
         }
     }
+
 }
+
 
 class Program
 {
     static void Main()
-    {
-        List<Estudiante> listaEstudiantes = new List<Estudiante>();
+    { 
+        List<Estudiantes> listaEstudiantes = new List<Estudiantes>();
         string continuar = "s";
 
         while (continuar.ToLower() == "s")
         {
-            Estudiante Miestudiante = new Estudiante();
+            Estudiantes MiEstudiante = new Estudiantes();
 
             Console.Write("\nNombre del estudiante: ");
             string nombre = Console.ReadLine();
@@ -66,7 +67,7 @@ class Program
             Console.Write("Carrera del estudiante: ");
             string carrera = Console.ReadLine();
 
-            Miestudiante.ObtenerInfo(nombre, carrera);
+            MiEstudiante.ObtenerInfo(nombre, carrera);
 
             int cantidadNotas;
 
@@ -82,26 +83,26 @@ class Program
             {
                 double nota;
                 Console.Write($"Ingrese la nota #{i}: ");
-                while (!double.TryParse(Console.ReadLine(), out nota) || nota < 0 || nota > 5)
+                while (!double.TryParse(Console.ReadLine(), out nota) || nota < 0 || nota > 10)
                 {
-                    Console.WriteLine("Por favor, ingrese una nota válida entre 0 y 5.");
+                    Console.WriteLine("Por favor, ingrese una nota válida entre 0 y 10.");
                     Console.Write($"Ingrese la nota #{i}: ");
                 }
 
-                Miestudiante.AgregarNota(nota);
+                MiEstudiante.AgregarNotas(nota);
             }
 
-            Miestudiante.CalcularPromedio();
-            Miestudiante.MostrarInfo();
+            MiEstudiante.CalcularPromedio();
+            MiEstudiante.MostrarInfo();
 
-            listaEstudiantes.Add(Miestudiante);
+            listaEstudiantes.Add(MiEstudiante);
 
             Console.Write("\n¿Deseas ingresar otro estudiante? (s/n): ");
             continuar = Console.ReadLine();
         }
 
         Console.WriteLine("\nResumen completo:");
-        foreach (Estudiante e in listaEstudiantes)
+        foreach (Estudiantes e in listaEstudiantes)
         {
             e.MostrarInfo();
             Console.WriteLine("---------------------------------");
