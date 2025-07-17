@@ -1,0 +1,4 @@
+- Día 34: un excelente día, ha sido muchos cambios en mi, buscar oportunidades, no se que me pasa que observo que me cuesta un poco mas salir adelante, pero lo lograre, no dudare de mis capacidades, se que puedo dar mucho de mi, tal vez no es el momento, pero se que puedo en algo estoy haciendo mal, pero no es el final, te quiero vida, aunque me trates de la perra madre, aun asi te quiero con toda la actitud y amigos que me has permitido estar conmigo y ser buena conmigo, unas por otras, pero aun asi te amo <3
+
+Cuidate vida, siempre conmigo, yo contigo y disfrutando este terreno de momento, tal vez yo se que me haces mal por como he tratado mi entorno, pero entiendeme tambien, no seas tan perra conmigo, yo tambien te amo, intento ser buena persona y mejor persona, pero en fin en ocasiones me cuesta enterderte y solo me queda fluir contigo, te amor <3, saludos, nos vemos mañana con otra rutina.
+
