@@ -1,0 +1,1 @@
+- día 36:  tuve que darle un descanso, aunque he estado día a día dandole 30m a 1hra o mas si me lo permite el díá, de momento estoy haciendo trabajos variados para tener algo de comer, mientras llega alguna oportunidad que me permita el cambio, de momento, solo son Readme :)

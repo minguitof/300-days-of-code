@@ -1,0 +1,1 @@
+- día 37: trabajo temporaneo que he dedicado 30m a 1hra para salir y comer de algo, tambien sera un Readme, espero que todo cambie pronto, dandole con toda la moral bro :)
