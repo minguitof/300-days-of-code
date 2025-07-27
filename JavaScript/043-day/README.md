@@ -1,0 +1,1 @@
+-día 43: ... , adelantamiento de todo, solo trabeje en la moto, no hay mucho que agregar :)

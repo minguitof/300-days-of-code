@@ -1,0 +1,1 @@
+-día 42: avances, he estado trabajando, dedicandole, calmando mis ansiedades, pero no logre registarlos, se que tengo que enfocarme en hacerlo diario a diario, igualmente, estoy desatrasandome hasta el día domingo que vamos al día

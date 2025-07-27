@@ -1,0 +1,1 @@
+-día 44: ..., otro, me estaba fallando, nuevamente trabej pero no estaba registrando mi proceso, poniendome al día

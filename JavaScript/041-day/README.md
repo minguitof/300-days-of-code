@@ -1,0 +1,1 @@
+- día 41: Hoy me llamaron para una entrevista. Me preguntaron sobre soporte técnico en impresoras y celulares. Fui honesto: tengo más experiencia en computadores, y apenas soy aprendiz en otros equipos. No adorné. No fingí. Solo fui yo, con lo que sé y con lo que quiero seguir aprendiendo. Y eso me dio paz. Sé que estoy creciendo.
