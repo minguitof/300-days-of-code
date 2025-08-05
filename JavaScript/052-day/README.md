@@ -1,0 +1,1 @@
+- día 52: avancces de las maquinas virtuales con servidores, introducción a parrot os e introducción a principios de shopify con medio de CLI en ubuntu
