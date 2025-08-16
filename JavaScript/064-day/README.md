@@ -1,0 +1,5 @@
+avance de estas dos semana:
+
+- dia ...: me meti un trabajo para que me consumio demasiado de mi, es un lavadero de motos de spa de alto rendimiento, lo cual era de bastante agilidad, tiempo para hacer las cosas, las cuales consumieron energia y tiempo de mi para sobrevivir estos días, hoy fui mi ultimo día en visitar tal lugar, buscare otras formas de hacer dinero en cuanto logro encontrar un trabajo estable, asi sea para crecer y aportar a la empresa, y escalar, lamento haber pasado estas semanas en silencio, no volvera a pasar intento ser mas organizado, y juicioso conmigo mismo, se que puedo, solo es constancia y dedicación por lo que me gusta, no te dejes vencer por la lujuria, y procrastinación bro, deja el miedo y la pena, eso no te va a llevar a ninguna parte, infinitas gracias por crear este espacipo para mi como un recordatorio de todo lo que he estado pasando, eres una gran persona, demuestra que eres capaz de sacar a tu familia adelante, solo PREOCUPATE POR TI Y POR TI PARA TI <3
+
+Te quiero bro.
